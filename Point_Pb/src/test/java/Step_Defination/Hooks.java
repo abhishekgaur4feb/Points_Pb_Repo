@@ -39,6 +39,10 @@ public class Hooks{
 		
 		if(Browsername.equals("chrome")){
 			System.out.println("Called openBrowser");
+			
+			DesiredCapabilities capability = DesiredCapabilities.chrome();
+			capability.setCapability(CapabilityType.ACCEPT_SSL_CERTS, true);
+			
 			System.setProperty("webdriver.chrome.driver","driver//chromedriver.exe");
 			driver = new ChromeDriver();
 			driver.manage().deleteAllCookies();

@@ -7021,3 +7021,6 @@
 2019-04-09 13:52:15,893 [main] INFO Step_Defination.Centers_step - Fetching URL and Opening the Url
 2019-04-09 13:52:47,642 [main] INFO Step_Defination.Centers_step - Clicked on Centers Available in Points Application
 2019-04-09 13:52:52,274 [main] INFO Step_Defination.Centers_step - Centers visible Successfully
+2019-04-09 19:36:07,795 [main] INFO Step_Defination.Centers_step - Fetching URL and Opening the Url
+2019-04-09 19:36:22,286 [main] INFO Step_Defination.Centers_step - Clicked on Centers Available in Points Application
+2019-04-09 19:36:27,170 [main] INFO Step_Defination.Centers_step - Centers visible Successfully

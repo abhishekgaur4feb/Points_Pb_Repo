@@ -129,7 +129,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 16176141091,
+  "duration": 13310200242,
   "status": "passed"
 });
 formatter.scenario({
@@ -227,7 +227,7 @@ formatter.match({
   "location": "Centers_step.Open_firefox_and_start_application()"
 });
 formatter.result({
-  "duration": 70424727,
+  "duration": 75625697,
   "status": "passed"
 });
 formatter.match({
@@ -244,18 +244,18 @@ formatter.match({
   "location": "Centers_step.user_enters_and(String,String)"
 });
 formatter.result({
-  "duration": 36376338424,
+  "duration": 19369020121,
   "status": "passed"
 });
 formatter.match({
   "location": "Centers_step.message_displayed_Login_Successful(DataTable)"
 });
 formatter.result({
-  "duration": 1568000,
+  "duration": 1786182,
   "status": "passed"
 });
 formatter.after({
-  "duration": 51879,
+  "duration": 80000,
   "status": "passed"
 });
 });
