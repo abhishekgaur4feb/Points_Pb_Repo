@@ -39,7 +39,7 @@ public class Hooks{
 		
 		if(Browsername.equals("chrome")){
 			System.out.println("Called openBrowser");
-			
+			//For Accepting Security Certificates
 			DesiredCapabilities capability = DesiredCapabilities.chrome();
 			capability.setCapability(CapabilityType.ACCEPT_SSL_CERTS, true);
 			
