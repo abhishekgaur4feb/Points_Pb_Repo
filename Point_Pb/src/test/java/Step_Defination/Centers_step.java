@@ -31,7 +31,7 @@ public class Centers_step {
 
 	@Given("^Open browser for Points application$")
 	public void Open_firefox_and_start_application() throws Throwable {
-		driver = Hooks.driver;
+		driver = Hooks.driver;//body[@data-gr-c-s-loaded='true']
 		BasicConfigurator.configure();
 		logger.info("Fetching URL and Opening the Url");
 		//driver.get("http://www.rarecarat.com");
@@ -43,6 +43,7 @@ public class Centers_step {
 		
 		//Initialization
 		PageFactory.initElements(driver, Centers_object.class);
+		
 		
 		WebDriverWait wait = new WebDriverWait(driver, 50);
 		WebElement element = wait

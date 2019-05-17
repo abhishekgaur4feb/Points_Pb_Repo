@@ -15,7 +15,7 @@ Scenario Outline: Points Application Login
 	# when paremeters are given in Examples always use Scenario Outline instead of Scenario
 	Examples: 
 		| uname        | password   |
-		| PBI\AB008GA  | Sparkle7@  |
+		| PSI\abhishek.gaur  | Pitney@123!  |
 		
 		
 
