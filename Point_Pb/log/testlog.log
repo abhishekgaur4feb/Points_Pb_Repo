@@ -7160,3 +7160,34 @@
 2019-05-16 20:28:40,748 - Step_Defination.Centers_step -INFO - Fetching URL and Opening the Url
 2019-05-16 20:29:04,653 - Step_Defination.Centers_step -INFO - Looking for Price in Resource
 2019-05-16 20:29:17,165 - Step_Defination.Centers_step -INFO - Assertion Passed
+2019-05-17 16:37:12,963 - Step_Defination.Centers_step -INFO - Fetching URL and Opening the Url
+2019-05-17 18:39:03,789 - Step_Defination.Centers_step -INFO - Fetching URL and Opening the Url
+2019-05-17 18:39:29,225 - Step_Defination.Centers_step -INFO - Looking for Price in Resource
+2019-05-17 18:39:50,509 - Step_Defination.Centers_step -INFO - Assertion Passed
+2019-05-17 19:27:58,342 - Step_Defination.Centers_step -INFO - Fetching URL and Opening the Url
+2019-05-17 19:28:21,488 - Step_Defination.Centers_step -INFO - Looking for Price in Resource
+2019-05-17 19:28:33,552 - Step_Defination.Centers_step -INFO - Assertion Passed
+2019-05-21 14:00:28,976 - Step_Defination.Add_Point_Customer_Step -INFO - Fetching URL and Opening the Url
+2019-05-21 14:02:11,752 - Step_Defination.Add_Point_Customer_Step -INFO - Fetching URL and Opening the Url
+2019-05-21 14:04:22,964 - Step_Defination.Add_Point_Customer_Step -INFO - Fetching URL and Opening the Url
+2019-05-21 14:07:21,729 - Step_Defination.Add_Point_Customer_Step -INFO - Fetching URL and Opening the Url
+2019-05-21 14:28:42,655 - Step_Defination.Add_Point_Customer_Step -INFO - Fetching URL and Opening the Url
+2019-05-21 14:29:08,344 - Step_Defination.Add_Point_Customer_Step -INFO - Fetching URL and Opening the Url
+2019-05-21 14:33:53,281 - Step_Defination.Add_Point_Customer_Step -INFO - Fetching URL and Opening the Url
+2019-05-21 14:40:06,728 - Step_Defination.Add_Point_Customer_Step -INFO - Fetching URL and Opening the Url
+2019-05-21 16:15:54,260 - Step_Defination.Add_Point_Customer_Step -INFO - Fetching URL and Opening the Url
+2019-05-21 16:20:54,561 - Step_Defination.Add_Point_Customer_Step -INFO - Fetching URL and Opening the Url
+2019-05-21 16:23:12,618 - Step_Defination.Add_Point_Customer_Step -INFO - Fetching URL and Opening the Url
+2019-05-21 16:25:20,616 - Step_Defination.Add_Point_Customer_Step -INFO - Fetching URL and Opening the Url
+2019-05-21 16:28:48,544 - Step_Defination.Add_Point_Customer_Step -INFO - Fetching URL and Opening the Url
+2019-05-21 16:30:06,545 - Step_Defination.Add_Point_Customer_Step -INFO - Fetching URL and Opening the Url
+2019-05-21 16:33:53,114 - Step_Defination.Add_Point_Customer_Step -INFO - Fetching URL and Opening the Url
+2019-05-21 16:43:44,367 - Step_Defination.Add_Point_Customer_Step -INFO - Fetching URL and Opening the Url
+2019-05-21 16:47:54,766 - Step_Defination.Add_Point_Customer_Step -INFO - Fetching URL and Opening the Url
+2019-05-21 16:55:03,198 - Step_Defination.Add_Point_Customer_Step -INFO - Fetching URL and Opening the Url
+2019-05-21 17:42:31,948 - Step_Defination.Add_Point_Customer_Step -INFO - Fetching URL and Opening the Url
+2019-05-21 17:50:22,342 - Step_Defination.Add_Point_Customer_Step -INFO - Fetching URL and Opening the Url
+2019-05-21 18:02:33,276 - Step_Defination.Add_Point_Customer_Step -INFO - Fetching URL and Opening the Url
+2019-05-22 13:16:46,725 - Step_Defination.Centers_step -INFO - Fetching URL and Opening the Url
+2019-05-22 13:17:09,057 - Step_Defination.Centers_step -INFO - Looking for Price in Resource
+2019-05-22 13:17:24,349 - Step_Defination.Centers_step -INFO - Assertion Passed

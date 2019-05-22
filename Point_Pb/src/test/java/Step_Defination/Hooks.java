@@ -78,8 +78,8 @@ public class Hooks{
 			try {
 				scenario.write("Current Page URL is " + driver.getCurrentUrl());
 				//            byte[] screenshot = getScreenshotAs(OutputType.BYTES);
-				//byte[] screenshot = ((TakesScreenshot)driver).getScreenshotAs(OutputType.BYTES);
-				//scenario.embed(screenshot, "image/png");
+				byte[] screenshot = ((TakesScreenshot)driver).getScreenshotAs(OutputType.BYTES);
+				scenario.embed(screenshot, "image/png");
 				File src=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 				FileUtils.copyFile(src, new File("Screenshots//"+scenario.getName()+"screenshot.png"));
 			} catch (WebDriverException somePlatformsDontSupportScreenshots) {

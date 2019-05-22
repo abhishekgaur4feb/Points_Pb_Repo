@@ -1,6 +1,9 @@
 package Step_Defination;
 
 import org.openqa.selenium.support.ui.Select;
+
+import java.util.List;
+
 import org.apache.log4j.BasicConfigurator;
 import org.apache.log4j.Logger;
 import org.junit.Assert;
@@ -50,19 +53,17 @@ public class Add_Count_Step {
 		//Center Selection
 		//Add_Count_Object.Select_Center_Click.click();
 		Select Counttype = new Select(Add_Count_Object.Select_Center_List);
-		switch (center)
-        {
-            case "CHI":
-            	Counttype.selectByVisibleText("CHI");
-    			break;
-            case "AUS":
-            	Counttype.selectByVisibleText("AUS"); 
-            break;
-            case "STL":
-            	Counttype.selectByVisibleText("STL"); 
-            break;
 		
-        }
+		List<WebElement> Centers_list = Counttype.getOptions();
+		
+		// Loop one by one
+	    for (int j = 0; j < Centers_list.size(); j++) {	        
+	        if(Centers_list.get(j).getText().equals(center)) {
+	        	Centers_list.get(j).click();
+	            break;
+	        }
+	    }
+		
 		
 		WebDriverWait wait = new WebDriverWait(driver, 50);
 		WebElement element = wait
@@ -186,7 +187,7 @@ public class Add_Count_Step {
 
 	@Then("^Message displayed Login Successful for Add Counts in Points application$")
 	public void message_displayed_Login_Successful_for_Add_Counts_in_Points_application() throws Throwable {
-	    // Write code here that turns the phrase above into concrete actions
+		driver.close();
 	  
 	}
 }
